@@ -19,7 +19,7 @@ const Footer = () => {
               <p>Toronto,Canada</p>
             </div>
             <div className='d-flex'>
-              <a href='tel:514-561-1296'>+1(289)946-2409</a>
+              <a href='tel:289-946-2409'>+1(289)946-2409</a>
             </div>
             <div className='d-flex'>
               <p>patelshivam2409@gmail.com</p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../logo.png';
+import logo from '../logo.svg';
 import { Link } from 'react-scroll';
 //REACT FONTAWESOME
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -9,9 +9,9 @@ const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-dark fixed-top'>
       <div className='container'>
-        <a className='navbar-brand' href='#'>
-          <p className='logo'>SHIVAM PATEL</p>
-        </a>
+        <img src={logo} alt='' />
+        <p className='logo'> SHIVAM PATEL</p>
+        <a className='navbar-brand' href='#'></a>
         <button
           className='navbar-toggler'
           type='button'
@@ -23,7 +23,6 @@ const Navbar = () => {
         >
           <FontAwesomeIcon icon={faBars} style={{ color: '#fff' }} />
         </button>
-
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav ml-auto'>
             {/* <li className='nav-item active'>
