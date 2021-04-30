@@ -19,15 +19,14 @@ const AboutMe = () => {
             opportunity as a software developer, with ability to work in Canada
             on full time basis for any employer.
             <br />
-            <b>Programming Languages : </b>Java, C# .Net, JavaScript, Angular,
-            HTML/CSS, Node.Js <br />
-            <b>Database : </b>Microsoft SQL Server, MySQL <br />
-            <b>FrameWorks and Libraries :</b> REST API, MVC, React.
+            <b>Programming Languages : </b>React, Java, C# .Net, JavaScript,
+            HTML/CSS, NodeJs, PHP <br />
+            <b>Database : </b>MS SQL Server, MySQL, MongoDB, Firebase <br />
+            <b>Tools </b>: Visual Studio, Git, Postman, Visual Studio Code,
+            Microsoft Office, Bootstrap, Figma, AdobeXD, WordPress, Trello.
             <br />
-            <b>Tools </b>: Android Studio, Visual Studio, Netbeans IDE, IntelliJ
-            IDEA, Git, Postman, Visual Studio Code, Microsoft Office <br />
             <b>Software Development Methodologies:</b> Agile Software
-            Development, Object Oriented Programming
+            Development, Object Oriented Programming, Scrum.
           </p>
         </div>
       </div>

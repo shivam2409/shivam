@@ -1,5 +1,5 @@
 import React from 'react';
-import restromation from '../restromation.png';
+import codegram from '../codegram.png';
 import portfolio from '../portfolio.png';
 import netflix from '../netflix.png';
 //Font awesome import
@@ -15,26 +15,21 @@ const Portfolio = () => {
       <>
         <img
           className='portfolio-image-popupbox'
-          src={restromation}
-          alt='Restromation project ... '
+          src={codegram}
+          alt='Codegram Social-Media '
         />
         <p className='portfolio-para'>
-          Developed and designed android mobile application to reduce the human
-          interaction and to automate and expedite the working process of a
-          restaurant. Developed Rest-API using ASP.Net web API and entity
-          framework and deployed API on AWS. Successfully created the
-          authentication and role based authorization system to make API more
-          secure. Designed and implemented database and stored procedures using
-          Microsoft SQL Server.
+          This is Project i was working on to master MERN stack development this
+          site is basically Social web application for Coders.User can create
+          profile ,add post,edit profile,like and comments, i have used Json
+          web-tokens for authentication, Bootstrap, express and mongoose.
         </p>
         <b>Github:</b>
         <a
           className='hyper-link'
-          onClick={() =>
-            window.open('https://github.com/himanshushah96/Restromation')
-          }
+          onClick={() => window.open('https://github.com/shivam2409/codegram')}
         >
-          https://github.com/himanshushah96/Restromation
+          hhttps://github.com/shivam2409/codegram
         </a>
       </>
     );
@@ -142,7 +137,7 @@ const Portfolio = () => {
           >
             <img
               className='portfolio-image'
-              src={restromation}
+              src={codegram}
               alt='Restaurant Automation...'
             />
             <div className='overflow'></div>

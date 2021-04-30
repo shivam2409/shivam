@@ -14,14 +14,10 @@ const Experience = () => {
             <p>
               <b>Nov 2020 - Present</b>
               <br />
-              After getting approved for my Post Graduate Work Permit(PGWP) in
-              Canada, I have been continuously looking for a full-time
-              opportunity in the software development industry. While searching
-              for job, I have kept myself continuously updated with developing
-              small projects and learning new day tools and technologies.
-              Learning and completing various course such as AWS Cloud
-              Practitioner, React, Angular. I also developed various assessments
-              and projects using HTML/CSS, Angular, React, Java, JavaScript.
+              Providing first line of support to apple customers and solving
+              critical technical issue and giving advise. Building good
+              relationship with customer and give them best customer service
+              experience.
               <br />
             </p>
           </div>
@@ -33,12 +29,11 @@ const Experience = () => {
             <p>
               <b>Jul 2020 - Nov 2020</b>
               <br />
-              Learned various technologies and implemented it as academic
-              projects. Developed several team projects using different
-              technologies such as Java, C# .Net, Node.Js, SQL, Flutter(Dart)
-              and Android. Implemented the working of scrum models and also
-              carried our project in terms of sprints and backlogs to get the
-              overview of agile development environment. <br />
+              Worked on front-end and full-stack projects using technologies
+              such as HTML, CSS, JavaScript, React and Firebase, mongoDB,
+              nodeJS, Express. Also helped local businesses to achieve their
+              marketing goals by creating their online presence. By doing this,
+              I enhanced my Web-development skills. <br />
             </p>
           </div>
         </div>
@@ -49,12 +44,8 @@ const Experience = () => {
             <p>
               <b>Jun 2019 - Aug 2020</b>
               <br />
-              Learned various technologies and implemented it as academic
-              projects. Developed several team projects using different
-              technologies such as Java, C# .Net, Node.Js, SQL, Flutter(Dart)
-              and Android. Implemented the working of scrum models and also
-              carried our project in terms of sprints and backlogs to get the
-              overview of agile development environment. <br />
+              Making schedule, managing big team, Organizing workflow, time
+              management and ensuring employees understand their duties. <br />
             </p>
           </div>
         </div>
@@ -66,11 +57,11 @@ const Experience = () => {
               <b>Jul 2017 - March 2018</b>
               <br />
               Learned various technologies and implemented it as academic
-              projects. Developed several team projects using different
-              technologies such as Java, C# .Net, Node.Js, SQL, Flutter(Dart)
-              and Android. Implemented the working of scrum models and also
-              carried our project in terms of sprints and backlogs to get the
-              overview of agile development environment. <br />
+              projects. Developed team projects using different technologies
+              such as Java, C# .Net, Node.Js, SQL, Git and Android. Implemented
+              the working of scrum models and also carried our project in terms
+              of sprints and backlogs to get the overview of agile development
+              environment. <br />
             </p>
           </div>
         </div>
