@@ -1,7 +1,7 @@
 import React from 'react';
 import codegram from '../codegram.png';
-import imagenest from '../imagenest.png';
 import flexmart from '../flexmart.png';
+import workout from '../workout.png';
 //Font awesome import
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
@@ -10,7 +10,7 @@ import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
 import 'react-popupbox/dist/react-popupbox.css';
 
 const Portfolio = () => {
-  const openPopupboxcodegram = () => {
+  const openPopupboxCodegram = () => {
     const content = (
       <>
         <img
@@ -44,84 +44,80 @@ const Portfolio = () => {
     PopupboxManager.open({ content });
   };
 
-  const popupboxConfigcodegram = {
+  const popupboxConfigCodegram = {
     titleBar: {
       enable: true,
-      text: 'Codegram',
+      text: 'Codegram Social-Media',
     },
     fadeIn: true,
     fadeInSpeed: 500,
   };
 
-  //Portfolio project
-  const openPopupboxImagenest = () => {
-    const content = (
-      <>
-        <img
-          className='portfolio-image-popupbox'
-          src={imagenest}
-          alt='Imagenest project ... '
-        />
-        <p>
-          The current project developed using React. Find out more at my github
-          repository.
-        </p>
-        <b>Github:</b>
-        <a
-          className='hyper-link'
-          onClick={() => window.open('https://github.com/shivam2409/imagenest')}
-        >
-          https://github.com/shivam2409/imagenest
-        </a>
-      </>
-    );
-    PopupboxManager.open({ content });
-  };
-
-  const popupboxConfigImagenest = {
-    titleBar: {
-      enable: true,
-      text: 'Imagenest project.',
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
-
-  //flexmart
-
-  const openPopupboxflexmart = () => {
+  //Flexmart project
+  const openPopupboxFlexmart = () => {
     const content = (
       <>
         <img
           className='portfolio-image-popupbox'
           src={flexmart}
-          alt='flexmart clone project ... '
+          alt='FlexMart E-commerce'
         />
-        <p className='portfolio-para'>
-          Tried to build flexmart web app screen using reactJs Created using the
-          api from tmdb. Deployed on Firebase
+        <p>
+          This is my current project that i am working to build e-commerce
+          website with number of functionality icluding cart, user, admin,
+          payment with Paypal also authentication using JSON web-token and more.
         </p>
         <b>Github:</b>
         <a
           className='hyper-link'
           onClick={() => window.open('https://github.com/shivam2409/flexmart')}
         >
-          https://github.com/shivam2409/flexmart
-        </a>
-        <br />
-        <b>Deployed at:</b>
-        <a
-          className='hyper-link'
-          onClick={() => window.open('https://github.com/shivam2409/flexmart')}
-        >
-          https://github.com/shivam2409/flexmart
+          'https://github.com/shivam2409/flexmart'
         </a>
       </>
     );
     PopupboxManager.open({ content });
   };
 
-  const popupboxConfigflexmart = {
+  const popupboxConfigFlexmart = {
+    titleBar: {
+      enable: true,
+      text: 'Flexmart E-commerce',
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
+
+  //WorkOut tracker
+
+  const openPopupboxWorkout = () => {
+    const content = (
+      <>
+        <img
+          className='portfolio-image-popupbox'
+          src={workout}
+          alt='Workout Tracker'
+        />
+        <p className='portfolio-para'>
+          Workout tracker is website to track workout activity, user can create
+          different profile and track their workout activity and timings.
+        </p>
+        <b>Github:</b>
+        <a
+          className='hyper-link'
+          onClick={() =>
+            window.open('https://github.com/shivam2409/workout-traker')
+          }
+        >
+          https://github.com/shivam2409/workout-traker
+        </a>
+        <br />
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
+
+  const popupboxConfigWorkout = {
     titleBar: {
       enable: true,
       text: '',
@@ -135,26 +131,26 @@ const Portfolio = () => {
       <div className='container'>
         <h1 className='text-uppercase text-center py-5'>Projects</h1>
         <div className='image-box-wrapper row justify-content-center'>
-          <div className='portfolio-image-box' onClick={openPopupboxcodegram}>
-            <img className='portfolio-image' src={codegram} alt='Codegram' />
+          <div className='portfolio-image-box' onClick={openPopupboxCodegram}>
+            <img
+              className='portfolio-image'
+              src={codegram}
+              alt='Codegram social media'
+            />
             <div className='overflow'></div>
             <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
           </div>
 
           {/*--*/}
 
-          <div className='portfolio-image-box' onClick={openPopupboxImagenest}>
-            <img
-              className='portfolio-image'
-              src={imagenest}
-              alt='Portfolio...'
-            />
+          <div className='portfolio-image-box' onClick={openPopupboxFlexmart}>
+            <img className='portfolio-image' src={flexmart} alt='Flexmart' />
             <div className='overflow'></div>
             <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
           </div>
 
-          <div className='portfolio-image-box' onClick={openPopupboxflexmart}>
-            <img className='portfolio-image' src={flexmart} alt='Flexmart' />
+          <div className='portfolio-image-box' onClick={openPopupboxWorkout}>
+            <img className='portfolio-image' src={workout} alt='Imagenest' />
             <div className='overflow'></div>
             <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
           </div>
@@ -164,9 +160,9 @@ const Portfolio = () => {
         </p>
       </div>
 
-      <PopupboxContainer {...popupboxConfigcodegram} />
-      <PopupboxContainer {...popupboxConfigImagenest} />
-      <PopupboxContainer {...popupboxConfigflexmart} />
+      <PopupboxContainer {...popupboxConfigCodegram} />
+      <PopupboxContainer {...popupboxConfigFlexmart} />
+      <PopupboxContainer {...popupboxConfigWorkout} />
     </div>
   );
 };

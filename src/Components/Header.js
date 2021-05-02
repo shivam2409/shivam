@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <div id='home' className='header-wraper'>
       <div className='main-info'>
-        <h1>Full Stack Developer</h1>
+        <div className='nametag'></div>
+        <h2 className='nametagtext'>SHIVAM PATEL</h2>
+        <h1 className='nametagtext'>Full Stack Developer</h1>
         <Typed
           className='typed-text'
           strings={[
@@ -20,7 +22,8 @@ const Header = () => {
             'Java',
             'C# .Net',
             'SQL',
-            'Git',
+            'GitHub',
+            'Figma',
           ]}
           typeSpeed={40}
           backSpeed={60}
