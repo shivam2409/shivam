@@ -1,3 +1,5 @@
+/** @format */
+
 import React from 'react';
 import author from '../me.jpg';
 
@@ -14,19 +16,14 @@ const AboutMe = () => {
         <div className='col-lg-6  col-xm-12'>
           <h1 className='about-heading'>About me</h1>
           <p className='pabout'>
-            As a software development student, I have learned and worked with
-            different kind of technologies. Currently, looking for a fulltime
-            opportunity as a software developer, with ability to work in Canada
-            on full time basis for any employer.
-            <br />
-            <b>Programming Languages : </b>React, Java, C# .Net, JavaScript,
-            HTML/CSS, NodeJs, PHP <br />
-            <b>Database : </b>MS SQL Server, MySQL, MongoDB, Firebase <br />
-            <b>Tools </b>: Visual Studio, Git, Postman, Visual Studio Code,
-            Microsoft Office, Bootstrap, Figma, AdobeXD, WordPress, Trello.
-            <br />
-            <b>Software Development Methodologies:</b> Agile Software
-            Development, Object Oriented Programming, Scrum.
+            Front End developer with 2+ years of industry experience building
+            websites and web applications. Specialize in JavaScript and have
+            professional experience working with React, NodeJs, Redux and
+            Redux-thunk. Also have experience working with scalable Frond-End
+            and Back-end development using PHP, SQL, Express. A quick thinker,
+            Multi-tasker, team player and self-learner. Worked for various
+            clients over the years on multiple projects to help them achieve
+            their business goals.
           </p>
         </div>
       </div>
